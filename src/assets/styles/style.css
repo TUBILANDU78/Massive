@@ -1,3 +1,7 @@
+/** FONT AWESOME **/
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
+
 :root {
   --primary-color: rgb(255,255,255);
   --secondary-color: rgba(254,254,0);
@@ -11,10 +15,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
-/** FONT AWESOME **/
-@import "npm:@fortawesome/fontawesome-free/css/all.css";
 
   
 /** GOOGLE FONTS **/
