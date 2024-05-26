@@ -17,7 +17,10 @@
 <body>
   <header>
     <div class="header-inner-container">
-      <h1>Sueños alterados</h1>
+      <div class="header-logo">
+        <img src="assets/images/massive_logo.webp" alt="Logotipo de la web" width="250" height="133">
+      </div>
+      <h1><a href=index.html>Sueños alterados</a></h1>
     </div>
         
     <nav>
@@ -42,6 +45,11 @@
           <p>Esta web es modesta pero honesta. El autor de estas líneas se dejó embriagar a mediados de los 90 por los aromas que llegaban de una obrera y portuaria urbe británica. Él odiaba el Hip Hop (ya no), pero esto era algo diferente. Trip Hop, lo llamaban. ¿Dónde estaba la diferencia? 
             Nunca escarbar en busca de lo desconocido tuvo un sabor tan dulce, aunque el ambiente fuera oscuro y las letras pesimistas. Los ritmos, pegadizos y magnéticos, harían el resto. Embrujo completado. Desde entonces, a lomos de multitud de conciertos en España y el extranjero, se gestó este proyecto.
             Páginas aficionadas como esta habrá miles, en numerosos idiomas, pero todas aportan su dosis de cariño y lanzan un anzuelo de descubrimiento a las nuevas generaciones.</p>
+
+            <div class="container-bug">
+              <img src="assets/images/bug.svg" alt="Ilustración de un escarabajo" class="bug">
+            </div>
+
           <p>La web recoge los aspectos fundamentales para considerarse un adepto finisecular del ataque masivo. En diversas categorías, fácilmente accesibles desde el menú de navegación superior, podrán degustarse las biografías de los miembros pasados, presentes y temporales del grupo, 
             su discografía completa (en continua actualización para, en un futuro, incluir las diferentes versiones de cada lanzamiento en cada parte del mundo), un listado alfabético completo de todas las canciones (en inglés y traducción al español), un repositorio de conciertos (con crónicas de los medios locales), 
             un vademecum sobre las visitas de la banda a España (con crónicas de primera mano), un álbum de prensa (tanto nacional como internacional), un intrigante apartado de rumores y leyendas sobre las grabaciones y los componentes y, finalmente, 
@@ -52,12 +60,51 @@
 
         <div class="slideshow">
           <figure>
-            <img src="assets/images/presentation-01.jpg" alt="Imagen de un concierto del grupo de Trip-Hop Massive attack" width="200" height="200">
-            <img src="assets/images/presentation-02.jpg" alt="Imagen de un concierto del grupo de Trip-Hop Massive attack" width="200" height="200">
-            <img src="assets/images/presentation-03.jpg" alt="Imagen de un concierto del grupo de Trip-Hop Massive attack" width="200" height="200">
-            <img src="assets/images/presentation-04.jpg" alt="Imagen de un concierto del grupo de Trip-Hop Massive attack" width="200" height="200">
-            <img src="assets/images/presentation-05.jpg" alt="Imagen de un concierto del grupo de Trip-Hop Massive attack" width="200" height="200">
+            <img 
+            srcset="assets/images/presentation-01B.webp 100w,
+            assets/images/presentation-01.webp 200w"
+              sizes="(max-width: 600px) 100px,
+              (max-width: 1200px) 200px,
+              1200px"
+            src="assets/images/presentation-01.webp" alt="Imagen de un concierto del grupo de Trip-Hop Massive attack" width="200" height="200">
+            <img 
+            srcset="assets/images/presentation-02B.webp 100w,
+            assets/images/presentation-02.webp 200w"
+              sizes="(max-width: 600px) 100px,
+              (max-width: 1200px) 200px,
+              1200px"
+            src="assets/images/presentation-02.webp" alt="Imagen de un concierto del grupo de Trip-Hop Massive attack" width="200" height="200">
+            <img 
+            srcset="assets/images/presentation-03B.webp 100w,
+            assets/images/presentation-03.webp 200w"
+              sizes="(max-width: 600px) 100px,
+              (max-width: 1200px) 200px,
+              1200px"
+            src="assets/images/presentation-03.webp" alt="Imagen de un concierto del grupo de Trip-Hop Massive attack" width="200" height="200">
+            <img 
+            srcset="assets/images/presentation-04B.webp 100w,
+            assets/images/presentation-04.webp 200w"
+              sizes="(max-width: 600px) 100px,
+              (max-width: 1200px) 200px,
+              1200px"
+            src="assets/images/presentation-04.webp" alt="Imagen de un concierto del grupo de Trip-Hop Massive attack" width="200" height="200">
+            <img 
+            srcset="assets/images/presentation-05B.webp 100w,
+            assets/images/presentation-05.webp 200w"
+              sizes="(max-width: 600px) 100px,
+              (max-width: 1200px) 200px,
+              1200px"
+            src="assets/images/presentation-05.webp" alt="Imagen de un concierto del grupo de Trip-Hop Massive attack" width="200" height="200">
           </figure>
+        </div>
+
+        
+        <div class="container-soundwaves">
+          <svg class="wave" viewBox="0 0 120 100" width="120" height="100">
+              <rect class="bar bar1" x="10" y="20" width="20" height="60" />
+              <rect class="bar bar2" x="50" y="20" width="20" height="60" />
+              <rect class="bar bar3" x="90" y="20" width="20" height="60" />
+          </svg>
         </div>
 
         <div class="presentation-video">
@@ -83,6 +130,20 @@
   <footer class="footer">
     <div class="footer-container">
       <div>
+        <ul class="footer-links">
+          <li><a href="presentation.html">Presentación</a></li>
+          <li><a href="">Miembros</a></li>
+          <li><a href="discography.html">Discografía</a></li>
+          <li><a href="">Canciones</a></li>
+          <li><a href="">Conciertos</a></li>
+          <li><a href="">Visitas a España</a></li>
+          <li><a href="">Prensa</a></li>
+          <li><a href="">Leyendas</a></li>
+          <li><a href="sources.html">Fuentes</a></li>
+        </ul>
+
+        <img src="assets/images/massive_logo.webp" alt="Logotipo de la web" width="125" height="66">
+
         <ul class="copyrights">
           <li>Web sin ánimo de lucro realizada en el marco de una práctica formativa para la Universitat Oberta de Catalunya.</li>    
           <li>&copy; Textos: Rubén Martín Bravo.</li>

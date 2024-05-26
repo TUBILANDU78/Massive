@@ -18,6 +18,9 @@
 <body>
   <header>
     <div class="header-inner-container">
+      <div class="header-logo">
+        <img src="assets/images/massive_logo.webp" alt="Logotipo de la web" width="250" height="133">
+      </div>
       <h1><a href=index.html>Sueños alterados</a></h1>
     </div>
         
@@ -51,17 +54,35 @@
 
         <div class="detail-cover">
           <figure>                   
-            <img src="assets/images/mezzanine-cover.jpg" alt="Portada del disco Mezzanine del grupo de Trip-Hop Massive attack" width="400" height="400">
+            <img
+            srcset="assets/images/mezzanine-coverB.webp 200w,
+            assets/images/mezzanine-cover.webp 400w"
+              sizes="(max-width: 600px) 200px,
+              (max-width: 1200px) 400px,
+              1200px" 
+            src="assets/images/mezzanine-cover.webp" alt="Portada del disco Mezzanine del grupo de Trip-Hop Massive attack" width="400" height="400">
           </figure>
         </div>
 
         <div class="detail-back-cookie">
           <figure>                   
-            <img src="assets/images/mezzanine-back.jpg" alt="Trasera del disco Mezzanine del grupo de Trip-Hop Massive attack" width="150" height="150">
+            <img 
+            srcset="assets/images/mezzanine-backB.webp 100w,
+            assets/images/mezzanine-back.webp 150w"
+              sizes="(max-width: 600px) 100px,
+              (max-width: 1200px) 150px,
+              1200px" 
+            src="assets/images/mezzanine-back.webp" alt="Trasera del disco Mezzanine del grupo de Trip-Hop Massive attack" width="150" height="150">
           </figure>
         
           <figure>                   
-            <img src="assets/images/mezzanine-cookie.jpg" alt="Galleta del CD del disco Mezzanine del grupo de Trip-Hop Massive attack" width="150" height="150">
+            <img 
+            srcset="assets/images/mezzanine-cookieB.webp 100w,
+            assets/images/mezzanine-cookie.webp 150w"
+              sizes="(max-width: 600px) 100px,
+              (max-width: 1200px) 150px,
+              1200px" 
+            src="assets/images/mezzanine-cookie.webp" alt="Galleta del CD del disco Mezzanine del grupo de Trip-Hop Massive attack" width="150" height="150">
           </figure>
         </div>
 
@@ -137,6 +158,20 @@
   <footer class="footer">
     <div class="footer-container">
       <div>
+        <ul class="footer-links">
+          <li><a href="presentation.html">Presentación</a></li>
+          <li><a href="">Miembros</a></li>
+          <li><a href="discography.html">Discografía</a></li>
+          <li><a href="">Canciones</a></li>
+          <li><a href="">Conciertos</a></li>
+          <li><a href="">Visitas a España</a></li>
+          <li><a href="">Prensa</a></li>
+          <li><a href="">Leyendas</a></li>
+          <li><a href="sources.html">Fuentes</a></li>
+        </ul>
+
+        <img src="assets/images/massive_logo.webp" alt="Logotipo de la web" width="125" height="66">
+
         <ul class="copyrights">
           <li>Web sin ánimo de lucro realizada en el marco de una práctica formativa para la Universitat Oberta de Catalunya.</li>    
           <li>&copy; Textos: Rubén Martín Bravo.</li>

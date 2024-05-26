@@ -18,12 +18,21 @@
 <body>
   <header>
     <div class="header-homepage-container">
-      <h1>Sueños alterados</h1>
+      <div class="header-logo">
+        <img src="assets/images/massive_logo.webp" alt="Logotipo de la web" width="250" height="133">
+      </div>
+      <h1><a href="index.html">Sueños alterados</a></h1>
       <p class="header-subtitle">Massive Attack como respuesta para el tercer milenio</p>
     </div>
         
     <div class="header-image">
-      <img src="assets/images/home-header-landscape-1920x1200.jpeg" alt="Imagen de un escarabajo negro, icono del disco Mezzanine, del grupo de Trip-Hop Massive attack" width="1200" height="600">
+      <picture>
+         <source srcset="assets/images/home-header-landscape-1920x1200.webp" media="(min-width: 1200px)">
+        
+         <source srcset="assets/images/home-header-landscape-1130x1200.webp" media="(max-width: 767px)">
+         
+         <img src="assets/images/home-header-landscape-1920x1200.webp" alt="Imagen de un escarabajo negro, icono del disco Mezzanine, del grupo de Trip-Hop Massive attack" width="1200" height="600">
+      </picture>
     </div>
   </header>
     
@@ -39,6 +48,14 @@
              En las calles empedradas, los ecos de risas y canciones se desvanecían entre la neblina, dejando tras de sí un vacío palpable.</p>
           <p>Los muelles, una vez bulliciosos y rebosantes de actividad, yacían ahora en silencio, como un recuerdo lejano de días de gloria. 
              El río Avon, sin embargo, testigo silente de los anhelos de aquellos que lo contemplaban desde sus orillas, fluía con la misma serenidad con la que lo había hecho durante siglos, indiferente al paso del tiempo.</p>
+
+          <div class="quote">
+            <img class="image-cropped" src="assets/images/DelNaja.jpg" alt="Robert Del Naja, cantante de Massive Attack" width="300" height="400">
+            <blockquote>Como seres humanos, creamos sistemas de creencias que nos hacen sentir felices con las decisiones que tomamos. 
+              Habría mucha gente infeliz que se arrepentiría de todo si no crearan el sistema de creencias en el que pudieran explicar todas sus elecciones y sentir que han hecho lo correcto.
+              <span class="quote-author">Robert del Naja</span></blockquote>
+          </div>
+
           <p>En los bares y tabernas, la música (¿pero qué música?) resonaba timorata en las paredes desgastadas, acompañada por las risas ahogadas y los susurros de los que buscaban refugio en la penumbra. 
              En cada esquina, en cada callejón, se respiraba un aura de nostalgia, como si el pasado se aferrara con fuerza al presente, negándose a desaparecer.</p>
           <p>Y en medio de esa melancolía, entre luces titilantes y sombras alargadas, Bristol encontraba su belleza más oscura. 
@@ -48,7 +65,13 @@
         <div class="sections-grid-container">
           <figure>
             <div class="section-card">
-              <img src="assets/images/card-section-01.jpg" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
+              <img 
+              srcset="assets/images/card-section-01B.webp 125w,
+              assets/images/card-section-01.webp 250w"
+              sizes="(max-width: 600px) 125px,
+              (max-width: 1200px) 250px,
+              1200px"
+              src="assets/images/card-section-01.webp" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
             </div>
             <figcaption>
               <p><i class="fa-solid fa-fire" style="color: #000000;"></i>  <a href="presentation.html">PRESENTACIÓN</a></p>
@@ -57,7 +80,13 @@
                     
           <figure>
             <div class="section-card">
-              <img src="assets/images/card-section-02.jpg" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
+              <img 
+              srcset="assets/images/card-section-02B.webp 125w,
+              assets/images/card-section-02.webp 250w"
+              sizes="(max-width: 600px) 125px,
+              (max-width: 1200px) 250px,
+              1200px"
+              src="assets/images/card-section-02.webp" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
             </div>
             <figcaption>
               <p><i class="fa-solid fa-people-group" style="color: #000000;"></i>  <a href="">MIEMBROS</a></p>
@@ -66,7 +95,13 @@
                     
           <figure>
             <div class="section-card">
-              <img src="assets/images/card-section-03.jpg" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
+              <img 
+              srcset="assets/images/card-section-03B.webp 125w,
+              assets/images/card-section-03.webp 250w"
+              sizes="(max-width: 600px) 125px,
+              (max-width: 1200px) 250px,
+              1200px"
+              src="assets/images/card-section-03.webp" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
             </div>
             <figcaption>
               <p><i class="fa-solid fa-record-vinyl" style="color: #000000;"></i>  <a href="discography.html">DISCOGRAFÍA</a></p>
@@ -75,7 +110,13 @@
                 
           <figure>
             <div class="section-card">
-              <img src="assets/images/card-section-04.jpg" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
+              <img 
+              srcset="assets/images/card-section-04B.webp 125w,
+              assets/images/card-section-04.webp 250w"
+              sizes="(max-width: 600px) 125px,
+              (max-width: 1200px) 250px,
+              1200px"
+              src="assets/images/card-section-04.webp" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
             </div>
             <figcaption>
               <p><i class="fa-solid fa-music" style="color: #000000;"></i>  <a href="">CANCIONES</a></p>
@@ -84,7 +125,13 @@
                     
           <figure>
             <div class="section-card">
-              <img src="assets/images/card-section-05.jpg" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
+              <img 
+              srcset="assets/images/card-section-05B.webp 125w,
+              assets/images/card-section-05.webp 250w"
+              sizes="(max-width: 600px) 125px,
+              (max-width: 1200px) 250px,
+              1200px"
+              src="assets/images/card-section-05.webp" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
             </div>
             <figcaption>
               <p><i class="fa-solid fa-microphone" style="color: #000000;"></i>  <a href="">CONCIERTOS</a></p>
@@ -93,7 +140,13 @@
                     
           <figure>
             <div class="section-card">
-              <img src="assets/images/card-section-06.jpg" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
+              <img 
+              srcset="assets/images/card-section-06B.webp 125w,
+              assets/images/card-section-06.webp 250w"
+              sizes="(max-width: 600px) 125px,
+              (max-width: 1200px) 250px,
+              1200px"
+              src="assets/images/card-section-06.webp" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
             </div>
             <figcaption>
               <p><i class="fa-solid fa-location-dot" style="color: #000000;"></i>  <a href="">VISITAS A ESPAÑA</a></p>
@@ -102,7 +155,13 @@
                     
           <figure>
             <div class="section-card">
-              <img src="assets/images/card-section-07.jpg" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
+              <img 
+              srcset="assets/images/card-section-07B.webp 125w,
+              assets/images/card-section-07.webp 250w"
+              sizes="(max-width: 600px) 125px,
+              (max-width: 1200px) 250px,
+              1200px"
+              src="assets/images/card-section-07.webp" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
             </div>
             <figcaption>
               <p><i class="fa-solid fa-newspaper" style="color: #000000;"></i>  <a href="">PRENSA</a></p>
@@ -111,7 +170,13 @@
                     
           <figure>
             <div class="section-card">
-              <img src="assets/images/card-section-08.jpg" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
+              <img 
+              srcset="assets/images/card-section-08B.webp 125w,
+              assets/images/card-section-08.webp 250w"
+              sizes="(max-width: 600px) 125px,
+              (max-width: 1200px) 250px,
+              1200px"
+              src="assets/images/card-section-08.webp" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
             </div>
             <figcaption>
               <p><i class="fa-solid fa-comment" style="color: #000000;"></i>  <a href="">LEYENDAS</a></p>
@@ -120,7 +185,13 @@
                     
           <figure>
             <div class="section-card">
-              <img src="assets/images/card-section-09.jpg" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
+              <img 
+              srcset="assets/images/card-section-09B.webp 125w,
+              assets/images/card-section-09.webp 250w"
+              sizes="(max-width: 600px) 125px,
+              (max-width: 1200px) 250px,
+              1200px"
+              src="assets/images/card-section-09.webp" alt="Imagen sobre el grupo de Trip-Hop Massive Attack" width="250" height="250">
             </div>
             <figcaption>
               <p><i class="fa-solid fa-photo-film" style="color: #000000;"></i>  <a href="sources.html">FUENTES</a></p>
@@ -134,6 +205,20 @@
   <footer class="footer">
     <div class="footer-container">
       <div>
+        <ul class="footer-links">
+          <li><a href="presentation.html">Presentación</a></li>
+          <li><a href="">Miembros</a></li>
+          <li><a href="discography.html">Discografía</a></li>
+          <li><a href="">Canciones</a></li>
+          <li><a href="">Conciertos</a></li>
+          <li><a href="">Visitas a España</a></li>
+          <li><a href="">Prensa</a></li>
+          <li><a href="">Leyendas</a></li>
+          <li><a href="sources.html">Fuentes</a></li>
+        </ul>
+
+        <img src="assets/images/massive_logo.webp" alt="Logotipo de la web" width="125" height="66">
+
         <ul class="copyrights">
           <li>Web sin ánimo de lucro realizada en el marco de una práctica formativa para la Universitat Oberta de Catalunya.</li>    
           <li>&copy; Textos: Rubén Martín Bravo.</li>
